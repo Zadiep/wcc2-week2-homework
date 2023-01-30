@@ -45,22 +45,6 @@ function setup() {
 }
 
 function draw() {
-  push();
-  let R = 'Red Value';
-  let G = 'Green Value';
-  let B = 'Blue Value';
-  let A = 'Alpha Value'
-  let I = 'Clike Button to change the amount of circle'
-  fill(155);
-  let textS = width/50;
-  let textSpace = width/16;
-  textSize(textS);
-  text(R, 250, height-textSpace*5); 
-  text(G, 250, height-textSpace*4); 
-  text(B, 250, height-textSpace*3); 
-  text(A, 250, height-textSpace*2); 
-  text(I, 250, height-textSpace); 
-  pop();
 
   push();
   translate(width/2,height/2);
@@ -154,9 +138,8 @@ function addGUI()
 
   //add a button
 
-      buttonRed = createButton("Reduce a Circle");
-      buttonAdd = createButton("Add a Circle");
-
+  buttonRed = createButton("Reduce a Circle");
+  buttonAdd = createButton("Add a Circle");
 
   buttonRed.addClass("button");
   buttonAdd.addClass("button");

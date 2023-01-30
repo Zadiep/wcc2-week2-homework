@@ -6,10 +6,17 @@ canvas {
   display: block;
 }
 
+p {
+position: fixed;
+text-align: left;
+color:purple;
+font-size:40px;
+}
+
 #gui-container{
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  left: 20px;
+  left: 100px;
   z-index: 100;
   width: 220px;
   padding: 10px;
@@ -40,8 +47,11 @@ canvas {
 
 /*styled slider */
 /* https://www.w3schools.com/howto/howto_js_rangeslider.asp */
+
+
 .slider {
   -webkit-appearance: none;
+  right:0;
   width: 100%;
   height: 15px;
   border-radius: 5px;  
