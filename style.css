@@ -94,3 +94,8 @@ font-size:40px;
   }
 }
 
+body{
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  font-size: 20px;
+}
